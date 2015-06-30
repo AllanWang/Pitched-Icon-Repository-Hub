@@ -1,0 +1,37 @@
+#BIMP 1.6
+#MANIPULATION SET DEFINITION
+
+[USERDEF0]
+procedure=plug-in-colortoalpha
+num_params=4
+PARAM0=1
+PARAM1=NOT_USED
+PARAM2=NOT_USED
+PARAM3=#ffffffffffff
+
+[USERDEF1]
+procedure=gimp-colorize
+num_params=4
+PARAM0=NOT_USED
+PARAM1=0
+PARAM2=0
+PARAM3=0
+
+[USERDEF2]
+procedure=script-fu-neon-logo-alpha
+num_params=7
+PARAM0=1
+PARAM1=NOT_USED
+PARAM2=NOT_USED
+PARAM3=7.5
+PARAM4=#000000000000
+PARAM5=#ffffffffffff
+PARAM6=0
+
+[USERDEF3]
+procedure=plug-in-colortoalpha
+num_params=4
+PARAM0=1
+PARAM1=NOT_USED
+PARAM2=NOT_USED
+PARAM3=#000000000000
