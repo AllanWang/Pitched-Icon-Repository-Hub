@@ -1,0 +1,5 @@
+mogrify -path ../Pitched_Shadows_Rage -fill "rgb(255,48,48)" -colorize 100,100,100 *.png
+
+mogrify -path ../Pitched_Shadows_Envy -fill "rgb(48,255,83)" -colorize 100,100,100 *.png
+
+mogrify -path ../Pitched_Shadows_Holo -fill "rgb(50,220,255)" -colorize 100,0,0 *.png
